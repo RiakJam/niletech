@@ -5,7 +5,7 @@
 $index_translations = [
     'en' => [
         // Hero Section
-        'hero_badge' => '🚀 Digital Transformation',
+        'hero_badge' => 'Digital Transformation',
         'hero_title' => 'Empowering Businesses Through',
         'hero_title_highlight' => 'Technology',
         'hero_subtitle' => 'We deliver innovative web development and technology solutions tailored to your business needs.',
@@ -175,7 +175,7 @@ $index_translations = [
     ],
     'ar' => [
         // Hero Section
-        'hero_badge' => '🚀 التحول الرقمي',
+        'hero_badge' => 'التحول الرقمي',
         'hero_title' => 'تمكين الأعمال من خلال',
         'hero_title_highlight' => 'التكنولوجيا',
         'hero_subtitle' => 'نقدم حلولاً مبتكرة لتطوير الويب والتكنولوجيا مصممة خصيصاً لتلبية احتياجات عملك.',
