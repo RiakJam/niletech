@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-nile-dark;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+  
+  .btn-primary {
+    @apply bg-nile-secondary hover:bg-nile-primary text-white font-semibold py-2 px-6 rounded-lg transition duration-300;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-nile-secondary text-nile-secondary hover:bg-nile-secondary hover:text-white font-semibold py-2 px-6 rounded-lg transition duration-300;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-nile-primary mb-4;
+  }
+  
+  .service-card {
+    @apply bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-t-4 border-nile-accent;
+  }
+}
