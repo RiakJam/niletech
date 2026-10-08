@@ -1,7 +1,7 @@
 {
-  "name": "niletech",
+  "name": "nileteck",
   "version": "1.0.0",
-  "description": "Niletech - Web Development & Tech Solutions",
+  "description": "Nileteck - Web Development & Tech Solutions",
   "main": "index.js",
   "scripts": {
     "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["web development", "tech solutions", "tailwind"],
-  "author": "Niletech",
+  "author": "Nileteck",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
